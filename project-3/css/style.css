@@ -1,0 +1,31 @@
+* {
+   color: black;
+}
+
+h2 {
+   color: olivedrab;
+}
+
+.text {
+   color: slateblue;
+}
+
+.product span {
+   color: tomato;
+}
+
+.menu .list .item {
+   color: red;
+}
+
+.awards > .list > .item {
+   color: orange;
+}
+
+.awards + div h2 {
+   color: grey;
+}
+
+.structure .item ~ .item {
+   color: brown;
+}
