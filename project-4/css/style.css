@@ -1,0 +1,64 @@
+@font-face {
+   font-family: "Swiss911";
+   src:
+      url("../fonts/Swiss911/Swiss911BT-ExtraCompressed.woff2") format("woff2"),
+      url("../fonts/Swiss911/Swiss911BT-ExtraCompressed.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Play";
+   src:
+      url("../fonts/play/Play-Regular.woff2") format("woff2"),
+      url("../fonts/play/Play-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Play";
+   src:
+      url("../fonts/play/Play-Bold.woff2") format("woff2"),
+      url("../fonts/play/Play-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+main > p {
+   font-family: "Roboto";
+}
+
+main h1 {
+   font-family: "Swiss911";
+   font-size: 32px;
+}
+
+main .list {
+   font-family: "Play";
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.part .text {
+   font-family: "Play";
+}
+
+.part h2 {
+   font-family: "Play";
+   font-weight: 700;
+   font-size: 32px;
+}
+
+.part h3 {
+   font-style: italic;
+   font-size: 18px;
+}
+
+footer {
+   color: blue;
+   font-size: 18px;
+}

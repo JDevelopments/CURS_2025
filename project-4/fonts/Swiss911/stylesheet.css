@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Swiss911 XCm BT';
+    src: url('Swiss911BT-ExtraCompressed.woff2') format('woff2'),
+        url('Swiss911BT-ExtraCompressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
