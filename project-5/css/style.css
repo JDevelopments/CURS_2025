@@ -1,0 +1,95 @@
+@font-face {
+   font-family: "Verdana";
+   src:
+      url("../fonts/Verdana/Verdana.woff2") format("woff2"),
+      url("../fonts/Verdana/Verdana.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Verdana";
+   src:
+      url("../fonts/Verdana/Verdana-Italic.woff2") format("woff2"),
+      url("../fonts/Verdana/Verdana-Italic.woff") format("woff");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Verdana";
+   src:
+      url("../fonts/Verdana/Verdana-Bold.woff2") format("woff2"),
+      url("../fonts/Verdana/Verdana-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Verdana";
+   src:
+      url("../fonts/Verdana/Verdana-BoldItalic.woff2") format("woff2"),
+      url("../fonts/Verdana/Verdana-BoldItalic.woff") format("woff");
+   font-weight: 700;
+   font-style: italic;
+   font-display: swap;
+}
+
+.page {
+   padding: 25px;
+}
+
+body {
+   font-family: "Verdana", Geneva, sans-serif;
+   line-height: 1.5;
+}
+
+.ilustration {
+   text-align: center;
+}
+
+.ilustration h1 {
+   color: #a5a5a5;
+   font-weight: 700;
+   font-size: 22px;
+   letter-spacing: 2px;
+   text-decoration: underline;
+   text-shadow: 1px 1px 1px rgb(4, 4, 4);
+   text-transform: uppercase;
+}
+
+.object {
+   margin-top: 25px;
+}
+.object h2 {
+   font-size: 18px;
+   font-weight: 700;
+   background-color: #c1d5db;
+   width: max-content;
+   padding: 0 10px;
+}
+
+.object-section {
+   padding-left: 25px;
+}
+
+.object-section h3 {
+   font-weight: 700;
+   background-color: #efefef;
+   color: #4f99ac;
+
+   font-style: italic;
+   line-height: 1.5;
+}
+
+.object-parameters {
+   font-family: "Roboto Mono", monospace;
+   word-spacing: 2px;
+}
+
+.object-parameters p span {
+   font-weight: 700;
+}
